@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ UNIVERSITY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fce3040e8c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- start of header section -->
+    <div class="about-header">
+        <nav>
+            <a href="index.html"><img src="images\logo.png" alt="" srcset=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Contact Us</h1>
+        </div>
+    </div>
+    <!-- end of header section -->
+
+    <!-- start about us content -->
+    <div class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159498.47852251714!2d-0.241836292049343!3d51.528372560911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1629385602915!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+    <div class="contact">
+        <div class="row">
+            <div class="contact-column">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>ABC Road, Olive Palace</h5>
+                        <p>London, UK</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+1 9999999998</h5>
+                        <p>Monday to Saturday, 10 AM to 6 PM</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>info@xcollege.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-column">
+                <form action="form.handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message"></textarea>
+                    <button class="explore-btn visit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end about us content -->
+
+    <!-- start of footer section -->
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta sint neque, numquam delectus totam
+            <br> error maiores modi praesentium eos! Laborum in molestiae rem eum, at obcaecat <br> voluptatum ex
+            numquam sequi
+            praesentium consequatur. In ex dignissim
+        </p>
+        <div class="social-icons">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="develop">Developed & Designed By <a href="">Tech Axis</a>
+        </p>
+    </div>
+    <!-- end of footer section -->
+
+    <!-- Java Script for toggle menu start -->
+    <script src="jscript.js"></script>
+    <!-- Java Script for toggle menu end -->
+</body>
+
+</html>
